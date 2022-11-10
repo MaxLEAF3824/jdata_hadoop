@@ -4,25 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e4803d61-b5a8-4376-ae9d-40308d117b62" name="变更" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/CountSort/CSRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/CountSort/CountBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/CountSort/CountMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/CountSort/CountReducer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/CountSort/SortMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/CountSort/SortReducer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DuplicateRemoval/DRMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DuplicateRemoval/DRReducer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DuplicateRemoval/DRRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/HelloWorld/HelloWorld.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
+    <list default="true" id="e4803d61-b5a8-4376-ae9d-40308d117b62" name="变更" comment="实现了头两问">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +21,37 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <excluded-from-favorite>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="master" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </excluded-from-favorite>
+    <favorite-branches>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="main" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </favorite-branches>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -76,7 +91,7 @@
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+    "settings.editor.selected.configurable": "preferences.keymap"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -121,11 +136,67 @@
       <workItem from="1668045577816" duration="3000" />
       <workItem from="1668046589557" duration="6793000" />
       <workItem from="1668056278515" duration="7536000" />
-      <workItem from="1668064779153" duration="3200000" />
+      <workItem from="1668064779153" duration="3859000" />
     </task>
+    <task id="LOCAL-00001" summary="实现了头两问">
+      <created>1668068037597</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1668068037597</updated>
+    </task>
+    <task id="LOCAL-00002" summary="实现了头两问">
+      <created>1668068073721</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1668068073721</updated>
+    </task>
+    <task id="LOCAL-00003" summary="实现了头两问">
+      <created>1668068370743</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1668068370743</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="实现了头两问" />
+    <option name="LAST_COMMIT_MESSAGE" value="实现了头两问" />
   </component>
 </project>
