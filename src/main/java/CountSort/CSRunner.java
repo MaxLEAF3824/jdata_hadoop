@@ -19,9 +19,9 @@ public class CSRunner {
     public static void main(String[] args) throws IOException, InterruptedException, ClassNotFoundException, URISyntaxException {
         FileSystem fs = FileSystem.get(new URI("hdfs://localhost:9000"), new Configuration(), "maxleaf");
         String countInputPath = "/output/JData_Action_201603_extra_DR/part-r-00000";
-        String countOutputPath = "/output/JData_Action_201603_extra_C/";
+        String countOutputPath = "/output/Count/";
         runCount(countInputPath, countOutputPath);
-        String sortOutputPath = "/output/JData_Action_201603_extra_CS/";
+        String sortOutputPath = "/output/CountSort/";
         runSort(countOutputPath + "part-r-00000", sortOutputPath);
         fs.delete(new Path(countOutputPath), true);
         fs.close();

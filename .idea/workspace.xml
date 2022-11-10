@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e4803d61-b5a8-4376-ae9d-40308d117b62" name="变更" comment="README" />
+    <list default="true" id="e4803d61-b5a8-4376-ae9d-40308d117b62" name="变更" comment="README">
+      <change afterPath="$PROJECT_DIR$/src/main/java/UserCount/UCMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/UserCount/UCReducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/UserCount/UCRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CountSort/CSRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CountSort/CSRunner.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -78,28 +84,30 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "extract.method.default.visibility": "private",
-    "last_opened_file_path": "D:/Coding/IDEAWorkspace/hadoop/src/main/java/Sort",
+    "last_opened_file_path": "D:/Coding/IDEAWorkspace/hadoop/src/main/java/UserAnalysis",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "工件",
+    "project.structure.last.edited": "模块",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "preferences.keymap"
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Coding\IDEAWorkspace\hadoop\src\main\java\UserAnalysis" />
       <recent name="D:\Coding\IDEAWorkspace\hadoop\src\main\java\Sort" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="UserCount" />
       <recent name="CountSort" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="应用程序.UCMapper">
     <configuration name="DRRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DuplicateRemoval.DRRunner" />
       <module name="hadoop" />
@@ -113,8 +121,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="UCMapper" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="UserCount.UCMapper" />
+      <module name="hadoop" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="UserCount.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="应用程序.UCMapper" />
         <item itemvalue="应用程序.DRRunner" />
       </list>
     </recent_temporary>
@@ -133,7 +155,8 @@
       <workItem from="1668045577816" duration="3000" />
       <workItem from="1668046589557" duration="6793000" />
       <workItem from="1668056278515" duration="7536000" />
-      <workItem from="1668064779153" duration="4185000" />
+      <workItem from="1668064779153" duration="4408000" />
+      <workItem from="1668069243276" duration="5339000" />
     </task>
     <task id="LOCAL-00001" summary="实现了头两问">
       <created>1668068037597</created>
@@ -163,7 +186,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668068957172</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="README">
+      <created>1668069024869</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1668069024869</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
