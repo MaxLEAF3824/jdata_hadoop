@@ -19,7 +19,6 @@ public class CountMapper extends Mapper<LongWritable, Text, Text, CountBean> {
         outKey.set(id);
         outValue.setSale(sale);
         outValue.setBrow(brow);
-
         context.write(outKey, outValue);
     }
 }

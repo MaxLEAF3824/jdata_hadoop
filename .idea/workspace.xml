@@ -5,8 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e4803d61-b5a8-4376-ae9d-40308d117b62" name="变更" comment="更新第三问">
+      <change afterPath="$PROJECT_DIR$/src/main/java/SaleCount/SCMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SaleCount/SCReducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SaleCount/SCRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/UserCount/UCMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/UserCount/UCMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CountSort/CountMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CountSort/CountMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DuplicateRemoval/DRRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DuplicateRemoval/DRRunner.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +86,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "extract.method.default.visibility": "private",
-    "last_opened_file_path": "D:/Coding/IDEAWorkspace/hadoop/src/main/java/UserAnalysis",
+    "last_opened_file_path": "D:/Coding/IDEAWorkspace/hadoop/src/main/java/SaleCount",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -96,6 +101,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Coding\IDEAWorkspace\hadoop\src\main\java\SaleCount" />
       <recent name="D:\Coding\IDEAWorkspace\hadoop\src\main\java\UserAnalysis" />
       <recent name="D:\Coding\IDEAWorkspace\hadoop\src\main\java\Sort" />
     </key>
@@ -153,7 +159,8 @@
       <workItem from="1668046589557" duration="6793000" />
       <workItem from="1668056278515" duration="7536000" />
       <workItem from="1668064779153" duration="4408000" />
-      <workItem from="1668069243276" duration="7441000" />
+      <workItem from="1668069243276" duration="7606000" />
+      <workItem from="1668085611713" duration="5596000" />
     </task>
     <task id="LOCAL-00001" summary="实现了头两问">
       <created>1668068037597</created>
@@ -197,7 +204,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668074908702</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="更新第三问">
+      <created>1668077062475</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1668077062475</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -238,5 +252,16 @@
     <MESSAGE value="README" />
     <MESSAGE value="更新第三问" />
     <option name="LAST_COMMIT_MESSAGE" value="更新第三问" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/CountSort/CountBean.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
